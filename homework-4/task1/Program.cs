@@ -2,8 +2,7 @@
 // 3, 5 -> 243 (3⁵)
 // 2, 4 -> 16
 
-Console.WriteLine ("введите первое число");
-string input1 = Console.ReadLine();
+
 int Prompt(string mess)
 {
     System.Console.Write(mess);
