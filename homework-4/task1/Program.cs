@@ -3,17 +3,17 @@
 // 2, 4 -> 16
 
 
-int Prompt(string mess)
+int Prompt(string message)
 {
-    System.Console.Write(mess);
+    System.Console.Write(message);
     string readInput = System.Console.ReadLine();
-    int res = int.Parse(readInput);
-    return res;
+    int result = int.Parse(readInput);
+    return result;
 }
 
-int power(int powerBase, int exponent)
+int Power(int powerBase, int exponent)
 {
-    int Power = 1;
+    int power = 1;
     for (int i = 0; i < exponent; i++)
     {
         power *= powerBase;
@@ -35,5 +35,5 @@ int powerBase = Prompt("Введите основание: ");
 int exponent = Prompt("Введите показатель: ");
 if (ValidateExponent(exponent))
 {
-System.Console.WriteLine($"Число {powerBase} в степени {exponent} равно {Power(powerBase, exponent)}");
+    System.Console.WriteLine($"Число {powerBase} в степени {exponent} равно {Power(powerBase, exponent)}");
 }
