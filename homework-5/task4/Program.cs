@@ -9,7 +9,7 @@ int[] GetArray(int length)
 int[] array = new int[length];
 for (int i = 0; i < length; i++)
 {
-array[i] = new Random().Next(-9, 10);
+array[i] = new Random().Next(0, 1000);
 }
 return array;
 }
@@ -21,39 +21,20 @@ int length = Convert.ToInt32(Console.ReadLine());
 return length;
 }
 
-int SumPositive(int[] array)
-{
-int sum = 0;
-for (int i = 0; i < array.Length; i++)
-{
-if (array[i] > 0)
-{
-sum += array[i];
-}
-}
-return sum;
-}
+for (int i = 0; i < length; ++i) {
+        array[i] = dist(gen);
+    }
 
-int SumNegative(int[] array)
-{
-int sum = 0;
+    // Count the elements in the range [10, 99]
+    int count = 0;
+    for (int i = 0; i < length; ++i) {
+        if (array[i] >= 10 && array[i] <= 99) {
+            ++count;
+        }
+    }
 
-foreach (int number in array)
-{
-if (number < 0)
-{
-sum += number;
+    // Print the count
+    std::cout << "Number of array elements in the range [10, 99]: " << count << std::endl;
+
+    return 0;
 }
-}
-
-return sum;
-}
-
-int length = GetLength();
-int[] array = GetArray(length);
-int sumPositive = SumPositive(array);
-int sumNegative = SumNegative(array);
-string arrayToStr = String.Join(",", array);
-
-
-Console.WriteLine($"Сумма положительных {sumPositive}, сумма отрицательных {sumNegative}, массив: {arrayToStr}");
