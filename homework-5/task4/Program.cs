@@ -4,37 +4,34 @@
 // [1, 2, 3, 6, 2] -> 0
 // [10, 11, 12, 13, 14] -> 5
 
-int[] GetArray(int length)
-{
-int[] array = new int[length];
-for (int i = 0; i < length; i++)
-{
-array[i] = new Random().Next(0, 1000);
-}
-return array;
-}
+// int[] GetArray(int length)
+// {
+//     int[] array = new int[length];
+//     for (int i = 0; i < length; i++)
+//         {
+//             array[i] = new Random().Next(0, 1001);
+//         }
+//     return array;
+// }
 
-int GetLength()
-{
-Console.WriteLine("Введите длину");
-int length = Convert.ToInt32(Console.ReadLine());
-return length;
-}
+// int GetLength()
+// {
+//     Console.WriteLine("Введите длину");
+//     int length = Convert.ToInt32(Console.ReadLine());
+//     return length;
+// }
 
-for (int i = 0; i < length; ++i) {
-        array[i] = dist(gen);
-    }
+// int count = 0;
+// for (int i = 0; i < length; i++) 
+// {
+//     if (array[i] >= 10 && array[i] <= 99)
+//     {
+//         count++;
+//     }
 
-    // Count the elements in the range [10, 99]
-    int count = 0;
-    for (int i = 0; i < length; ++i) {
-        if (array[i] >= 10 && array[i] <= 99) {
-            ++count;
-        }
-    }
+//     Console.WriteLine($"Количество элементов массива, значения которых лежат в отрезке [10, 99] {count}");   
 
-    // Print the count
-    std::cout << "Number of array elements in the range [10, 99]: " << count << std::endl;
+//     return 0;
+// }
 
-    return 0;
-}
+
