@@ -11,12 +11,12 @@ int Prompt(string message)
     return result; 
 }
 
-Int[] InputArray(int length)
+int[] InputArray(int length)
 {
-    Int[] array = new int[length];
+    int[] array = new int[length];
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = Promt ($"Введите {i+1}–й элемент");
+        array[i] = Promt ($"Введите {i + 1}–й элемент");
     }
     return array;
 }
