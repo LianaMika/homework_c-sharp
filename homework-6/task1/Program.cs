@@ -6,7 +6,7 @@ int Prompt(string message)
 {
     System.Console.Write(message); 
     string value = Console.ReadLine(); 
-    int result = Convert.ToInt32value; 
+    int result = Convert.ToInt32(value); 
 
     return result; 
 }
@@ -16,7 +16,7 @@ int[] InputArray(int length)
     int[] array = new int[length];
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = Promt ($"Введите {i + 1}–й элемент");
+        array[i] = Prompt ($"Введите элемент {i + 1}: ");
     }
     return array;
 }
@@ -32,7 +32,7 @@ void PrintArray(int[] array)
 int CountPositiveNumbers(int[] array)
 {
     int count = 0;
-    for (i = 0; i < array.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
         if (array[i] > 0)
         {
@@ -42,8 +42,8 @@ int CountPositiveNumbers(int[] array)
     return count;
 }
 
-int length = Prompt("Введите количество элементов >");
+int length = Prompt("Введите количество элементов: ");
 int[] array;
 array = InputArray(length);
 PrintArray(array);
-Console.WriteLine($"Количество чисел больше 0 - {CountPositiveNumbers(array)}");
+Console.WriteLine($"Количество чисел больше 0: {CountPositiveNumbers(array)}");
