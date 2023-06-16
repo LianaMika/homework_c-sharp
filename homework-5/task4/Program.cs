@@ -58,7 +58,7 @@ int[] GetArray(int length)
     int[] array = new int[length];
     for (int i = 0; i < length; i++)
     {
-        array[i] = new Random().Next(0, 1000);
+        array[i] = new Random().Next(-1000, 1000);
     }
     return array;
 }
@@ -88,6 +88,7 @@ int Count(int[] array)
 int length = GetLength();
 int[] array = GetArray(length);
 int count = Count(array);
-string arrayToStr = String.Join(",", array);
+string arrayToStr = String.Join(", ", array);
 
 Console.WriteLine($"Количество элементов массива, значения которых лежат в отрезке [10, 99]: {count}");
+// Console.WriteLine($"Массив: {arrayToStr} ");
