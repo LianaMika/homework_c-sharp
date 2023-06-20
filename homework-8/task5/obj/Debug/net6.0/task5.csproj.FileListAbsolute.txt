@@ -1,0 +1,15 @@
+C:\Users\Лиана\Desktop\HomeWork\homework-8\task5\bin\Debug\net6.0\task5.exe
+C:\Users\Лиана\Desktop\HomeWork\homework-8\task5\bin\Debug\net6.0\task5.deps.json
+C:\Users\Лиана\Desktop\HomeWork\homework-8\task5\bin\Debug\net6.0\task5.runtimeconfig.json
+C:\Users\Лиана\Desktop\HomeWork\homework-8\task5\bin\Debug\net6.0\task5.dll
+C:\Users\Лиана\Desktop\HomeWork\homework-8\task5\bin\Debug\net6.0\ref\task5.dll
+C:\Users\Лиана\Desktop\HomeWork\homework-8\task5\bin\Debug\net6.0\task5.pdb
+C:\Users\Лиана\Desktop\HomeWork\homework-8\task5\obj\Debug\net6.0\task5.csproj.AssemblyReference.cache
+C:\Users\Лиана\Desktop\HomeWork\homework-8\task5\obj\Debug\net6.0\task5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Лиана\Desktop\HomeWork\homework-8\task5\obj\Debug\net6.0\task5.AssemblyInfoInputs.cache
+C:\Users\Лиана\Desktop\HomeWork\homework-8\task5\obj\Debug\net6.0\task5.AssemblyInfo.cs
+C:\Users\Лиана\Desktop\HomeWork\homework-8\task5\obj\Debug\net6.0\task5.csproj.CoreCompileInputs.cache
+C:\Users\Лиана\Desktop\HomeWork\homework-8\task5\obj\Debug\net6.0\task5.dll
+C:\Users\Лиана\Desktop\HomeWork\homework-8\task5\obj\Debug\net6.0\ref\task5.dll
+C:\Users\Лиана\Desktop\HomeWork\homework-8\task5\obj\Debug\net6.0\task5.pdb
+C:\Users\Лиана\Desktop\HomeWork\homework-8\task5\obj\Debug\net6.0\task5.genruntimeconfig.cache
