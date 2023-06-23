@@ -16,7 +16,7 @@ int SumOfElements(int n, int m)
     if (n == m) return n;
     else return SumOfElements(n + 1, m) + n;
 }
-int n = Prompt("Input N: ");
-int m = Prompt("Input M: ");
+int n = Prompt("Input M: ");
+int m = Prompt("Input N: ");
 
 Console.WriteLine(SumOfElements(n, m));
