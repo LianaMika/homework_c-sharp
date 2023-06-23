@@ -11,8 +11,15 @@ int Prompt(string message)
     return result;
 }
 
-int Akkerman(int m, int n)
+int Akkerman(int m, int n)  
+
 {
+    // if (m < 0 || n < 0)
+    // {
+    //     Console.WriteLine("Введите положительное число!");
+    //     return -1; // or any other appropriate value to indicate an error
+    // }
+
     if (m == 0) return n + 1;
     if (m > 0 && n == 0) return Akkerman(m - 1, 1);
     else return Akkerman(m - 1, Akkerman(m, n - 1));
