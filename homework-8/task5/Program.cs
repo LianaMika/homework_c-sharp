@@ -33,14 +33,19 @@ PrintArray(nums);
 
 void PrintArray(int[,] array)
 {
-    for (int i = 0; i < array.GetLength(0); i++)
+    int n = array.GetLength(0);
+    int m = array.GetLength(1);
+    int maxLength = (n * m).ToString().Length;
     {
-        // Console.Write("[ ");
-        for (int j = 0; j < array.GetLength(1); j++)
+        for (int i = 0; i < array.GetLength(0); i++)
         {
-            Console.Write(array[i, j] + "   ");
-        }
+        // Console.Write("[ ");
+            for (int j = 0; j < array.GetLength(1); j++)
+            {
+                Console.Write(array[i, j].ToString().PadLeft(maxLength, '0') + " ");
+            }
         // Console.Write("]");
         Console.WriteLine("");
+        }
     }
 }
