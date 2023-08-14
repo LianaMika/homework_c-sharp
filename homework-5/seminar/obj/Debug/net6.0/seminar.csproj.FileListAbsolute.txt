@@ -1,0 +1,15 @@
+C:\Users\Лиана\Desktop\HomeWork\homework-5\seminar\obj\Debug\net6.0\seminar.csproj.AssemblyReference.cache
+C:\Users\Лиана\Desktop\HomeWork\homework-5\seminar\obj\Debug\net6.0\seminar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Лиана\Desktop\HomeWork\homework-5\seminar\obj\Debug\net6.0\seminar.AssemblyInfoInputs.cache
+C:\Users\Лиана\Desktop\HomeWork\homework-5\seminar\obj\Debug\net6.0\seminar.AssemblyInfo.cs
+C:\Users\Лиана\Desktop\HomeWork\homework-5\seminar\obj\Debug\net6.0\seminar.csproj.CoreCompileInputs.cache
+C:\Users\Лиана\Desktop\HomeWork\homework-5\seminar\bin\Debug\net6.0\seminar.exe
+C:\Users\Лиана\Desktop\HomeWork\homework-5\seminar\bin\Debug\net6.0\seminar.deps.json
+C:\Users\Лиана\Desktop\HomeWork\homework-5\seminar\bin\Debug\net6.0\seminar.runtimeconfig.json
+C:\Users\Лиана\Desktop\HomeWork\homework-5\seminar\bin\Debug\net6.0\seminar.dll
+C:\Users\Лиана\Desktop\HomeWork\homework-5\seminar\bin\Debug\net6.0\ref\seminar.dll
+C:\Users\Лиана\Desktop\HomeWork\homework-5\seminar\bin\Debug\net6.0\seminar.pdb
+C:\Users\Лиана\Desktop\HomeWork\homework-5\seminar\obj\Debug\net6.0\seminar.dll
+C:\Users\Лиана\Desktop\HomeWork\homework-5\seminar\obj\Debug\net6.0\ref\seminar.dll
+C:\Users\Лиана\Desktop\HomeWork\homework-5\seminar\obj\Debug\net6.0\seminar.pdb
+C:\Users\Лиана\Desktop\HomeWork\homework-5\seminar\obj\Debug\net6.0\seminar.genruntimeconfig.cache

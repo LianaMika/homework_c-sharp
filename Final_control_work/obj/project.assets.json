@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Лиана\\Desktop\\репы\\homework-1\\task1\\task1.csproj",
-      "projectName": "task1",
-      "projectPath": "C:\\Users\\Лиана\\Desktop\\репы\\homework-1\\task1\\task1.csproj",
+      "projectUniqueName": "C:\\Users\\Лиана\\Desktop\\HomeWork\\Final_control_work\\Final_control_work.csproj",
+      "projectName": "Final_control_work",
+      "projectPath": "C:\\Users\\Лиана\\Desktop\\HomeWork\\Final_control_work\\Final_control_work.csproj",
       "packagesPath": "C:\\Users\\Лиана\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Лиана\\Desktop\\репы\\homework-1\\task1\\obj\\",
+      "outputPath": "C:\\Users\\Лиана\\Desktop\\HomeWork\\Final_control_work\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Лиана\\AppData\\Roaming\\NuGet\\NuGet.Config"

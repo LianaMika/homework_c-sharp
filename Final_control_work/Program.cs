@@ -8,7 +8,7 @@
 // [“Russia”, “Denmark”, “Kazan”] → []"
 
 
-﻿using System.Net;
+using System.Net;
 
 int lenght = LenghtOfArray();
 string[] myarr = UrArray(lenght);
@@ -23,7 +23,6 @@ Console.WriteLine();
 string[] newArray = ReadyArray(newLenght, myarr);
 Console.WriteLine();
 PrintArray(newArray);
-
 
 
 int LenghtOfArray ()
@@ -91,3 +90,4 @@ string[] ReadyArray (int l, string[] oldarray)
 
 return array;
 }
+
